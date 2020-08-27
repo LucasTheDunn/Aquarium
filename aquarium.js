@@ -17,13 +17,13 @@
                 return ((length*height*2)+(width*height*2)+(length*width*2) );
 			
 			}
-			function calcGlue 
+			function calcGlue() { 
 				var length = new Number(lengthObj.value);
                 var width = new Number(widthObj.value);
                 var height = new Number(heightObj.value);
-				return ((length*2)+(width*2)+(height*4))
+				return (((length*2)+(width*2)+(height*4)(*0.10)
 			}
-			{
-			function calcCost 
+			
+			function calcCost() {
 				var TSA = calcTSA();
 			}
